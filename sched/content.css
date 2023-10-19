@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0e4a7b; /* Dark blue background */
+    color: #fff;
+}
+
+.header {
+    background-color: #1b4e87; /* Slightly lighter blue header background */
+    padding: 15px;
+    text-align: left;
+}
+
+.header a {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #ff9a8b; /* Coral button background */
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    transition: background-color 0.3s;
+}
+
+.header a:hover {
+    background-color: #ff5e3a; /* Slightly darker coral on hover */
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    background: url('shapes.png'); /* Replace with your shape background image */
+    background-size: cover;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 20px 0;
+    text-align: center;
+    color: #ff9a8b; /* Coral text color */
+}
+
+h2 {
+    font-size: 30px;
+    padding: 20px 0;
+    color: #fff;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    margin: 10px 0;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
